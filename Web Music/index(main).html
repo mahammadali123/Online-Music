@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <script src="src/jquery.min.js"></script>
+    <script src="src/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script  src="src/gallery.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/audioplayer.css">
+	<script type="text/javascript" src="src/audioplayer.js"></script>
+	<script src="src/popper.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/icon" href="src/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="styles(main).css">
+	<title>
+		Musico
+	</title>
+</head>
+<body>
+<div class="conainer-fluid" >
+	<nav class="navbar fixed-top navbar-default text-center navigation" style="background-color: #08192d;">
+		<a href="index(main).html" class="site-logo navbar-brand ml-sm-2"><span class="text-white" style="font-size: 30px;"><i class="fa fa-music" style="font-size:48px;color:red"></i> Musico</span></a>
+		<ul class="navbar-nav d-inline-block mr-auto menu">
+					<li class="nav-item d-inline-block"><a href="index(main).html" class="nav-link text-white">Home</a></li>
+					<li class="nav-item d-inline-block" ><a href="#" class="nav-link text-white">Albums</a></li>
+					<li class="nav-item d-inline-block" ><a href="#section-concept" class="nav-link text-white">Artist</a></li>
+					<li class="nav-item d-inline-block" ><a href="#" class="nav-link text-white" id="menu1" >Pages <i class="fa fa-angle-down" id="icon"></i></a>
+							<ul class="d-none pr-sm-5" id="submenu">
+
+								<li><a href="#" class="text-decoration-none">Category</a></li>
+								<li><a href="#" class="text-decoration-none">Playlist</a></li>
+								<li><a href="#" class="text-decoration-none">Artist</a></li>
+								<li><a href="#" class="text-decoration-none">Blog</a></li>
+								<li><a href="#" class="text-decoration-none">Contact</a></li>
+							</ul>
+					</li>
+					<li class="nav-item d-inline-block"  ><a href="#section-news" class="nav-link text-white">News</a></li>
+					<li class="nav-item d-inline-block" ><a href="#footer" class="nav-link text-white">Contact</a></li>
+		</ul>
+		<div class="submenu2">
+				<ul class="navbar-nav d-inline-block">
+					<li class="nav-item d-inline-block"><a href="#" class="text-white nav-link "> Login </a></li>
+					<span class="text-white d-inline-block divider">&nbsp;&nbsp;|</span>
+					<li class="nav-item d-inline-block"><a href="#" style="color: #fc0254;" class="nav-link Account">Create an Account</a></li>
+				</ul>
+		</div>
+		
+		<div class="d-none toggle-bar">
+				<nav class="navbar navbar-dark">
+    				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-expanded="false" aria-controls="navbarToggleExternalContent"  aria-label="Toggle navigation">MENU
+      				<span class="navbar-toggler-icon "></span>
+    				</button>
+  				</nav>
+
+			</div>
+		
+	</nav>
+</div>
+
+<div class="conainer-fluid section-1">     
+	<img src="src/hero-bg.png" id="bg-image" class="d-none d-xl-block d-lg-block">     
+	<div>
+		<h2><span style="color: #fc0254;">Music</span> for everyone.</h2>
+		<p class="text-white">Music gives a soul to the universe, wings to themind,<br>flight to the imagination and life to everything.</p>  
+	</div>
+	<div>         
+		<a href="#" class="btn pl-sm-4">DOWNLOAD NOW&nbsp;&nbsp;&nbsp;&nbsp;</a>         
+		<a href="#" class="btn pl-sm-3">START A FREE TRIAL</a>      
+	</div> 
+</div> 
+<div class="conainer-fluid ml-sm-5" >
+	<div>
+		
+	<div class="music_field">
+		
+		<h3 class="font-weight-bold text-center" style="color: #fc0254;">Start A Trial</h3>
+		
+	
+
+<div class="thumb">
+                                                    <img src="src/demo.jpg" alt="" width="20%" height="20%" class="float-left">
+                                                </div>
+                                                <div class="d-flex">
+                                                	
+                                                	<h5 class="font-weight-bold pl-xl-5">
+                                                		Artist:<span style="color:#fc0254; ">DJ</span>Snake<br>
+                                                		Featured artist:<span style="color:#fc0254; ">Justin</span> Bieber<br>
+                                                		Album:<span style="color:#fc0254;">En</span>Core<br>
+                                                		DJ Snake - Let Me Love You ft<br>
+                                                		<input type="button" name="click" value="Relesed 2016" disabled="" class="label1"><br>
+                                                	</h5>
+                                                	 
+                                                	
+                                                </div>
+                                                <div class="audio_name">
+                                                    
+                                                        <div class="audioplayer"><audio preload="auto" id="music_player" controls="" style="width: 0px; height: 0px; visibility: hidden;">
+                                                                <source src="src/DJ Snake - Let Me Love You ft. Justin Bieber.mp3">
+                                                            </audio>
+                                                            <div class="audioplayer-playpause" title="" onclick="play_aud()"><a href="" class="not-active" onclick="play_aud()"></a>
+                                                            </div>
+                                                            <div class="audioplayer-time audioplayer-time-current">00:00</div>
+                                                            <div class="audioplayer-bar" id="audioplayer-bar">
+                                                            	<div class="audioplayer-bar-loaded" style="width: 100%;">
+                                                            	
+                                                            </div>
+                                                            <div class="audioplayer-bar-played">
+                                                            	
+                                                            </div>
+                                                        </div>
+                                                        <div class="audioplayer-time audioplayer-time-duration">00:02</div>
+                                                        <div class="audioplayer-volume">
+                                                        	<div class="audioplayer-volume-button" title=""  id="change_vol"><a href="#"></a></div>
+                                                        	<div class="audioplayer-volume-adjust" onchange="change_vol()" id="change_vol2">
+                                                        		<div>
+                                                        		<div style="width: 20%;"></div>
+                                                        	</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                             </div>
+                                    </div>
+       </div>
+
+</div> 
+<div class="conainer-fluid section-news text-white pt-xl-5" id="section-news">     
+	<div class="row text-center">         
+		<div class="col-12">             
+			<h1>Latest News</h1>
+			<hr style="background-color:   white;">         
+		</div>     
+	</div>     
+	<div class="row">         
+		<div class="col-4" style="width: 40%">             
+			<img src="src/News/3.webp" class="img-fluid news1 rounded" width="100%" height="100%">             
+			<div class="pt-sm-2"> 
+				<input type="button" name="click" value="May 01, 2020" disabled="" class="label">                
+				<h4 class="font-weight-bold text-center">Music Seminar At Festival</h4>             
+				<p style="font-size: 15px;" class="text-justify news-text">                 
+					Sufi folk rock contains elements of modern hard rock
+					and traditional folk music with Sufi poetry. While it was pioneered by bands
+					like Junoon in Pakistan it became very popular, especially in north India. In
+					2005, Rabbi Shergill released a Sufi rock song called "Bulla Ki Jaana", which
+					became a chart-topper in India and Pakistan.             </p>
+			</div>
+			
+			
+		</div>
+		<div class="col-4 pt-sm-3">
+			<input type="button" name="click" value="May 01, 2020" disabled="" class="label">
+			<h4 class="font-weight-bold text-center">Festival List for 2020</h4>
+			<p class="text-justify news-text" style="font-size: 15px;" >
+				Sufi folk rock contains elements of modern hard rock and traditional folk music with Sufi poetry. While it was pioneered by bands like Junoon in Pakistan it became very popular, especially in north India. In 2005, Rabbi Shergill released a Sufi rock song called "Bulla Ki Jaana", which became a chart-topper in India and Pakistan.
+				
+			</p>
+			<img src="src/News/1.jpg" class="img-fluid border border-white mr-md-5" width="60%" height="100%">
+		</div> 
+		<div class="col-4">
+			<img src="src/News/2.jpg" class="img-fluid mr-sm-5 border border-white" width="80%" height="100%">
+			<div class="pt-sm-2">
+				<input type="button" name="click" value="May 01, 2020" disabled="" class="label">             
+				<h4 class="font-weight-bold text-center pt-sm-1">New Album Release in 2020</h4>             
+				<p style="font-size: 15px;" class="text-justify pr-sm-5 news-text">                 
+					Sufi folk rock contains elements of modern hard rock
+					and traditional folk music with Sufi poetry. While it was pioneered by bands
+					like Junoon in Pakistan it became very popular, especially in north India. In
+					2005, Rabbi Shergill released a Sufi rock song called "Bulla Ki Jaana", which
+					became a chart-topper in India and Pakistan.             </p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="conainer-fluid pt-xl-5 pr-sm-5 text-right" id="section-concept">
+	<div class="row">
+		<div class="col-lg-6">
+			<div>
+				<h3 class="display-4 font-weight-bold pr-sm-5" >Our Concept & <br>artists</h3>
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div>
+				<span class="pt-sm-3 text-justify">Everyone knows how the song or Orpheus, the great musician of ancient Greece, proved captivating to stones, trees and flood.The song of Tansen at Akbar’s court brought about a heavy shower and kindled a fire. Music not only rouses various feelings but also quiets the worried and wearied soul.</span>
+			</div>
+				
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 col-lg-4">
+		<div class="img-item">
+			<img src="src/1.jpg">
+			<h6 class="pad1">SoulMusic</h6>
+		</div>
+	</div>
+	<div class="col-sm-6 col-lg-4">
+		<div class="img-item">
+			<img src="src/2.jpg">
+			<h6 class="pad2">LiveConcerts</h6>
+		
+		</div>
+	</div>
+	<div class="col-sm-6 col-lg-4">
+		<div class="img-item">
+			<img src="src/3.jpg" >
+			<h6 class="pad3">DJ Sets</h6>
+		
+		</div>
+	</div>
+	</div>
+	
+</div>
+
+
+	
+	
+	<footer class="footer-section" style="background-color: #0a183d;" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-7 order-lg-2">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="footer-widget">
+								<p>About us</p>
+								<ul style="list-style-type: none;">
+									<li><a href="#" class="text-white text-decoration-none navlink pb-xl-5">Our Story</a></li>
+									<li><a href="#" class="text-white text-decoration-none navlink pb-xl-5">Our Team</a></li>
+									<li><a href="#" class="text-white text-decoration-none navlink pb-xl-5">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-6">
+							<div class="footer-widget">
+								<p>Concepts</p>
+								<ul style="list-style-type: none;">
+									<li><a href="#" class="text-white text-decoration-none navlink link">Soul Music</a></li>
+									<li><a href="#" class="text-white text-decoration-none navlink link">Live Concerts</a></li>
+									<li><a href="#" class="text-white text-decoration-none navlink link">DJ Sets</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-5 order-lg-1">
+					
+					<div class="mr-auto text-secondary">
+						<span class="text-white" style="font-size: 30px;"><i class="fa fa-music" style="font-size:48px;color:red"></i> Musico</span></a><br>
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </div>
+					<div class="footer-icons">
+						<a href="#"><i class="fa fa-instagram text-secondary"></i></a>
+						<a href="#"><i class="fa fa-pinterest text-secondary"></i></a>
+						<a href="#"><i class="fa fa-facebook text-secondary"></i></a>
+						<a href="#"><i class="fa fa-twitter text-secondary"></i></a>
+						<a href="#"><i class="fa fa-youtube text-secondary"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+		
+
+	
+	
+</div>
+</body>
+</html>                                            

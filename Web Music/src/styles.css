@@ -1,0 +1,195 @@
+.site-logo:hover
+{
+	
+	text-decoration: none;
+}
+
+
+
+.account:hover
+{
+	color: #CD0000 !important;
+}
+.menu:hover
+{
+	color: #fc0254 !important;
+}
+nav
+{
+	width: 100%;
+	position: fixed;
+}
+html body
+{
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+	max-width: 100%;
+    width: 100%;
+	height: auto;
+
+}
+.section-2
+{
+	position: absolute;
+	top: 170%;
+	width: 100%;
+	height: auto;
+
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 105px;
+	padding-bottom: 105px;
+	height: auto;
+}
+.images h4
+{
+}
+
+.section-3
+{
+	position: absolute;
+	top: 250%;
+	width: 100%;
+	color: white;
+}
+.sub-section
+{
+	margin-left: 1cm;
+}
+ .buttons
+ {
+ 	display: inline-block;
+	border: none;
+	font-size: 14px;
+	font-weight: 500;
+	min-width: 195px;
+	position: absolute;
+	top: 70%;
+	left: 6%;
+	padding: 23px 20px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	background: #fc0254;
+	color: #fff;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+ }
+ .buttons:hover
+ {
+ 	background-color: #C91550;
+ 	color: white;
+ }
+ .sub-menu:hover
+ {
+ 	text-decoration: none;
+ }
+
+.sub-menu2:hover
+{
+	text-decoration: none !important;
+}
+.sub-menu2
+{
+	background-color:  white;
+	list-style: none;
+	width: 33%;
+	position: absolute;
+	top: 80%;
+	
+	
+	text-align: left;
+}
+.item {
+	text-align: center;
+	padding-top: 35px;
+}
+.heading
+{
+	position: absolute;
+	top: 850%;
+	left: 65%;
+}
+.item img {
+	border-radius: 40px;
+	margin-bottom: 15px;
+}
+section
+{
+	position: absolute;
+	left: 38%;
+	margin-top: 6%;	
+	box-sizing: none;
+}
+.demo
+{
+	position: absolute;
+	left: 20%;
+}
+img
+{
+	position: absolute;
+	left: 55%;
+	max-width: 100%;
+}
+.text
+{
+	color: #fc0254;
+}
+.main-section
+{
+	height: 100vh;
+	width: 100s;
+	padding-bottom: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	
+
+}
+div
+{
+	margin: 0;
+	width: 100%;
+}
+@media screen and (max-width: 500px)
+{
+	.img1 .img2 .img3
+	{
+		flex-direction: column;
+		position: absolute;
+		direction: 
+		
+	}
+	.toggle
+	{
+		display: none;
+	}
+	.img-responsive
+	{
+		display: none;
+	}
+	
+
+.toggle-bar {
+  
+  display: block !important;
+	}
+	h6
+	{
+		font-size: 15px;
+	}
+}
